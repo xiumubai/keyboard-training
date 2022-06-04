@@ -14,3 +14,6 @@ function binnnarySearch(array, value, compareFn = defaultCompare) {
 function sum(a, b) {
   return a + b;
 }
+
+const cfdrrrrrr = aaa;
+cont a = 1;
