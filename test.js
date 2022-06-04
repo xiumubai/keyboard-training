@@ -16,4 +16,3 @@ function sum(a, b) {
 }
 
 const cfdrrrrrr = aaa;
-cont a = 1;
