@@ -22,3 +22,11 @@ function sum(a, b) {
   return a + b;
 }
 console.log(a, b);
+<div>1234342424</div>;
+const x = 'sdlfhjsf';
+const sfg = 'xsdfsf';
+const sf = `sdfsafas`;
+
+function getArgus(name) {
+  returntrue;
+}
