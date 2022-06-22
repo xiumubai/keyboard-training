@@ -374,3 +374,49 @@ dap 基于段落 vap vip
 dal 基于 vim-indent-object
 
 V$#d
+
+## 第十七天
+
+掌握宏
+
+## 开始录制
+
+qa a 是寄存器的名字
+
+q 结束录制
+
+:reg a 查看录制的宏
+
+## 使用
+
+@a 按一次使用一次
+@@ + 5 可以连续调用最后一次执行的宏
+
+数字+@+寄存器名字 重复执行某个宏 比如：5+@+a
+
+## 第十八天
+
+使用 vim 调用 vconsole 的命令
+
+## commands 字段
+
+使用 vim 的配置替代 vscode 的快捷键
+
+如下：
+
+```
+"vim.normalModeKeyBindingsNonRecursive": [
+  {
+    "before": ["<Leader>", "f", "d"],
+    "commands": ["editor.action.formatDocument"]
+  }
+],
+```
+
+## 功能点
+
+格式化代码：空格+f+d
+
+重命名: 空格+r+e
+
+折叠代码: 空格+[
