@@ -2,9 +2,13 @@
  * @Author: 朽木白
  * @Date: 2022-06-13 10:36:54
  * @LastEditors: 1547702880@qq.com
- * @LastEditTime: 2022-06-22 11:04:55
+ * @LastEditTime: 2022-06-26 12:58:03
  * @Description:
  */
+
+const num = 123;
+const age = 18;
+const name = 'janney';
 function binnnarySearch(array, value, compareFn = defaultCompare) {
   const sortedArray = insertionSort(array);
   let low = 0;
